@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ginasio 2.0</title>
+
+  <!--=============== favicon ================-->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!--=============== Fontes =================-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <!---<link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
+--->
+</head>
+
+<body id="top">
+
+  <!--============= Nav ===============-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+        <span class="span">Ginásio</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link active" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Sobre Nós</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Vídeo</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Turmas</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="index.html" class="btn btn-secondary">Cálculo IMC</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!--================ Header ==================-->
+
+      <section class="section hero bg-dark has-after has-bg-image sobr-header" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container sobr-h">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <strong class="strong">O Melhor</strong>Ginasio
+            </p>
+
+            <h1 class="h1 hero-title" style="font-size: 60px;">Notícias Actualizadas</h1>
+
+            <p class="section-text">
+              Duis mollis felis quis libero dictum vehicula. Duis dictum lorem mi, a faucibus nisi eleifend eu.
+            </p>
+
+            <a href="#Contacto" class="btn btn-primary">Contacto</a>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/about-banner.png" width="660" height="753" alt="hero banner" class="w-100">
+
+            <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1">
+            <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
+
+            <!--<img src="./assets/images/saude.png" width="155" height="170" alt="heart rate"
+              class="abs-img abs-img-1">
+            <img src="./assets/images/auto-estima.png" width="248" height="124" alt="calories" class="abs-img abs-img-2">--->
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--====================== Sobre ==========================-->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="./assets/images/about-banner.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-100">
+
+            <img src="./assets/images/about-circle-one.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-1">
+            <img src="./assets/images/about-circle-two.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-2">
+
+            <img src="./assets/images/fitness.png" width="650" height="154" loading="lazy" alt="fitness"
+              class="abs-img w-100">
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Sobre Nós</p>
+
+            <h2 class="h2 section-title">Bem vindo ao nosso Ginásio</h2>
+
+            <p class="section-text">
+              Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+            </p>
+
+            <p class="section-text">
+              Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante
+              ipsum primis.
+            </p>
+
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="./assets/images/about-coach.jpg" width="65" height="65" loading="lazy" alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">Milton Uaiene</h3>
+
+                  <p class="coach-title">Personal Trainer</p>
+                </div>
+
+              </div>
+
+              <a href="#" class="btn btn-primary">Explore More</a>
+
+            </div>
+
+          </div>
+
+          <div>
+            <h1 style="margin: 20px 0;">Nossa Historia</h1>
+            Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+              Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+              Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+              Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+          </div>
+
+          <div>
+            <h1 style="margin: 20px 0;">Quando Comecamos</h1>
+            Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+              Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+              Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+              Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat.
+              Pellentesque
+              porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+          </div>
+        
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+            <span class="span">Ginásio</span>
+          </a>
+
+          <p class="footer-brand-text">
+            Etiam suscipit fringilla ullamcorper sed malesuada urna nec odio.
+          </p>
+
+          <div class="wrapper">
+
+            <img src="./assets/images/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+
+            <ul class="footer-brand-list">
+
+              <li>
+                <p class="footer-brand-title">Segunda - Sexta</p>
+
+                <p>6:00 - 21:00</p>
+              </li>
+
+              <li>
+                <p class="footer-brand-title">Sábado - Domingo</p>
+
+                <p>6:00 - 18:00</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Links</p>
+          </li>
+
+          <li>
+            <a href="#home" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">Sobre Nós</a>
+          </li>
+
+          <li>
+            <a href="#video" class="footer-link">Vídeo</a>
+          </li>
+
+          <li>
+            <a href="#class" class="footer-link">Turmas</a>
+          </li>
+
+          <li>
+            <a href="#prices" class="footer-link">Preços</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Contactos</p>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+            </div>
+
+            <address class="address footer-link">
+              Av. Dom Alexandre, Bairro Mahotas N 2112
+            </address>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:18001213637" class="footer-link">+258 84 000 0000</a>
+
+              <a href="tel:+915552348765" class="footer-link">+258 87 000 0000</a>
+            </div>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:info@fitlife.com" class="footer-link">ginasio@gmail.com</a>
+
+              <a href="mailto:services@fitlife.com" class="footer-link">ginasio2@gmail.com</a>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" id="Contacto">
+
+          <li>
+            <p class="footer-list-title has-before">Contacto</p>
+          </li>
+
+          <li>
+            <form action="" class="footer-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Digite seu email" required
+                class="input-field">
+
+              <button type="submit" class="btn btn-primary" aria-label="Submit">
+                <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+   <!----- <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 Fitlife. All Rights Reserved By <a href="#" class="copyright-link">codewithsadee.</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Terms & Condition</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div> -->
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+</body>
+
+</html>
